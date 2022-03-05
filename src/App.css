@@ -1,0 +1,53 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 1rem 0;
+}
+
+.primary-navbar {
+	padding: 2rem;
+	background: #000;
+}
+
+.primary-navbar a {
+	color: white;
+	margin-right: 2rem;
+}
+
+/* .primary-navbar a.active {
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+.secondary-navbar {
+	padding: 1rem;
+}
+
+.secondary-navbar a {
+	color: black;
+	margin-right: 1rem;
+}
+
+.secondary-navbar a.active {
+	text-decoration: none;
+	font-weight: 600;
+	padding: 0.3rem 1rem;
+	background: #000;
+	border-radius: 0.3rem;
+	color: white;
+}
+
+.users a {
+	margin-right: 1rem;
+}
+
+.users a.active {
+	text-decoration: none;
+	font-weight: 600;
+	padding: 0.3rem 1rem;
+	background: #000;
+	border-radius: 0.3rem;
+	color: white;
+}
